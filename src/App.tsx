@@ -60,6 +60,15 @@ const DEFAULT_FORM: FormValues = {
 
 // ─── App ──────────────────────────────────────────────────────────────────────
 
+// ─── Helpers ──────────────────────────────────────────────────────────────────
+
+function steps_estimate(videoCount: number): string {
+  const baseMin = 8
+  const perVideo = 2
+  const total = baseMin + (videoCount - 1) * perVideo
+  return `estimado ${total}–${total + 4} min para ${videoCount} vídeo${videoCount > 1 ? 's' : ''}`
+}
+
 export default function App() {
   const [form, setForm]           = useState<FormValues>(DEFAULT_FORM)
   const [status, setStatus]       = useState<AppStatus>('idle')
@@ -442,11 +451,3 @@ export default function App() {
   )
 }
 
-// ─── Helpers ──────────────────────────────────────────────────────────────────
-
-function steps_estimate(videoCount: number): string {
-  const baseMin = 8
-  const perVideo = 2
-  const total = baseMin + (videoCount - 1) * perVideo
-  return `estimado ${total}–${total + 4} min para ${videoCount} vídeo${videoCount > 1 ? 's' : ''}`
-}
