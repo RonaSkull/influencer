@@ -1,0 +1,1086 @@
+[
+  {
+    "property": {
+      "id": "361561956",
+      "name": "Hello Hayley",
+      "domain": "hellohayley.com"
+    },
+    "metrics": {
+      "pageViews": 111267,
+      "activeUsers": 75453,
+      "sessions": 91708,
+      "newUsers": 73973,
+      "engagementRate": 0.4315108823657696
+    },
+    "topPages": [
+      {
+        "path": "/",
+        "title": "Hello Hayley, Inspiration for Decluttering and DIY for your Home – Hello Hayley",
+        "views": 1591,
+        "users": 1056,
+        "avgDuration": 56.48359211627908,
+        "bounceRate": 0.5108259823576584
+      },
+      {
+        "path": "/tv-wall-ideas/",
+        "title": "35 TV Wall Ideas for a Chic, Functional Entertainment Hub",
+        "views": 1471,
+        "users": 1145,
+        "avgDuration": 118.65063907957958,
+        "bounceRate": 0.5495495495495496
+      },
+      {
+        "path": "/white-kitchen-ideas/",
+        "title": "55 White Kitchen Ideas That Never Go Out of Style",
+        "views": 1346,
+        "users": 849,
+        "avgDuration": 156.82634136995304,
+        "bounceRate": 0.5136150234741784
+      },
+      {
+        "path": "/moody-bedroom-ideas/",
+        "title": "25 Moody Bedroom Ideas To Create a Dark, Luxe Retreat ",
+        "views": 1317,
+        "users": 958,
+        "avgDuration": 115.079033,
+        "bounceRate": 0.48879310344827587
+      },
+      {
+        "path": "/beige-living-room-ideas/",
+        "title": "40 Beige Living Room Ideas: Chic Decor for a Welcoming Space",
+        "views": 1092,
+        "users": 822,
+        "avgDuration": 91.38170864091857,
+        "bounceRate": 0.5657620041753654
+      },
+      {
+        "path": "/scandinavian-bedroom-ideas/",
+        "title": "40 Scandinavian Bedroom Ideas for a Cozy and Serene Space",
+        "views": 1045,
+        "users": 746,
+        "avgDuration": 130.19546801633987,
+        "bounceRate": 0.5490196078431373
+      },
+      {
+        "path": "/gray-house-black-trim/",
+        "title": "39 Gorgeous Gray Houses With Black Trim",
+        "views": 1025,
+        "users": 698,
+        "avgDuration": 117.31461721485714,
+        "bounceRate": 0.5622857142857143
+      },
+      {
+        "path": "/farmhouse-kitchen-backsplash-ideas/",
+        "title": "50 Farmhouse Kitchen Backsplash Ideas for Rustic Charm",
+        "views": 1005,
+        "users": 673,
+        "avgDuration": 172.46303306468306,
+        "bounceRate": 0.4333764553686934
+      },
+      {
+        "path": "/baby-shower-centerpieces/",
+        "title": "36 Baby Shower Centerpieces: Beautiful, Adorable Ideas",
+        "views": 957,
+        "users": 702,
+        "avgDuration": 99.74479601774397,
+        "bounceRate": 0.5564005069708492
+      },
+      {
+        "path": "/kitchen-pantry-ideas/",
+        "title": "38 Kitchen Pantry Ideas: Maximizing Storage and Style",
+        "views": 939,
+        "users": 681,
+        "avgDuration": 145.92663021411482,
+        "bounceRate": 0.49401913875598086
+      },
+      {
+        "path": "/retaining-wall-ideas/",
+        "title": "37 Retaining Wall Ideas for a Better Garden Landscape",
+        "views": 935,
+        "users": 671,
+        "avgDuration": 127.36310342597086,
+        "bounceRate": 0.5109223300970874
+      },
+      {
+        "path": "/fireplaces-with-windows-on-each-side/",
+        "title": "40 Fireplaces With Windows on Each Side for Natural Light and Views",
+        "views": 859,
+        "users": 590,
+        "avgDuration": 146.81890716234653,
+        "bounceRate": 0.5266030013642565
+      },
+      {
+        "path": "/corner-fireplace-ideas/",
+        "title": "40 Corner Fireplace Ideas To Enhance Your Home's Cozy Corners",
+        "views": 851,
+        "users": 557,
+        "avgDuration": 177.74674926775955,
+        "bounceRate": 0.523224043715847
+      },
+      {
+        "path": "/fireplace-with-built-ins-on-each-side/",
+        "title": "30 Ways To Decorate Your Fireplace With Built-Ins on Each Side",
+        "views": 832,
+        "users": 580,
+        "avgDuration": 128.84144951420456,
+        "bounceRate": 0.5056818181818182
+      },
+      {
+        "path": "/zen-garden-ideas/",
+        "title": "39 Zen Garden Ideas: Create a Serene Outdoor Space",
+        "views": 832,
+        "users": 520,
+        "avgDuration": 130.04274843393603,
+        "bounceRate": 0.5994436717663422
+      }
+    ],
+    "sources": [
+      {
+        "source": "google",
+        "medium": "organic",
+        "sessions": 58645,
+        "users": 45749
+      },
+      {
+        "source": "(direct)",
+        "medium": "(none)",
+        "sessions": 21919,
+        "users": 20233
+      },
+      {
+        "source": "pinterest.com",
+        "medium": "referral",
+        "sessions": 4531,
+        "users": 3984
+      },
+      {
+        "source": "bing",
+        "medium": "organic",
+        "sessions": 1731,
+        "users": 1530
+      },
+      {
+        "source": "gemini.google.com",
+        "medium": "referral",
+        "sessions": 737,
+        "users": 627
+      },
+      {
+        "source": "duckduckgo",
+        "medium": "organic",
+        "sessions": 704,
+        "users": 571
+      },
+      {
+        "source": "chatgpt.com",
+        "medium": "(not set)",
+        "sessions": 582,
+        "users": 563
+      },
+      {
+        "source": "yahoo",
+        "medium": "organic",
+        "sessions": 561,
+        "users": 478
+      },
+      {
+        "source": "Pinterest",
+        "medium": "organic",
+        "sessions": 450,
+        "users": 409
+      },
+      {
+        "source": "chatgpt.com",
+        "medium": "referral",
+        "sessions": 322,
+        "users": 253
+      }
+    ],
+    "landingPages": [
+      {
+        "path": "(not set)",
+        "sessions": 3939,
+        "users": 2436,
+        "bounceRate": 0.9931454683929931,
+        "avgDuration": 2.6317059050520433
+      },
+      {
+        "path": "/tv-wall-ideas",
+        "sessions": 1242,
+        "users": 1115,
+        "bounceRate": 0.5410628019323671,
+        "avgDuration": 125.6344921384863
+      },
+      {
+        "path": "/",
+        "sessions": 1174,
+        "users": 945,
+        "bounceRate": 0.596252129471891,
+        "avgDuration": 116.22616140715502
+      },
+      {
+        "path": "/moody-bedroom-ideas",
+        "sessions": 1054,
+        "users": 900,
+        "bounceRate": 0.5028462998102466,
+        "avgDuration": 128.37415175237192
+      },
+      {
+        "path": "/white-kitchen-ideas",
+        "sessions": 987,
+        "users": 815,
+        "bounceRate": 0.5146909827760892,
+        "avgDuration": 163.9186390597771
+      },
+      {
+        "path": "/beige-living-room-ideas",
+        "sessions": 905,
+        "users": 797,
+        "bounceRate": 0.569060773480663,
+        "avgDuration": 94.24624474254142
+      },
+      {
+        "path": "/gray-house-black-trim",
+        "sessions": 824,
+        "users": 687,
+        "bounceRate": 0.5485436893203883,
+        "avgDuration": 122.89180686650485
+      },
+      {
+        "path": "/scandinavian-bedroom-ideas",
+        "sessions": 822,
+        "users": 704,
+        "bounceRate": 0.5583941605839416,
+        "avgDuration": 132.4191073406326
+      },
+      {
+        "path": "/retaining-wall-ideas",
+        "sessions": 769,
+        "users": 661,
+        "bounceRate": 0.4889466840052016,
+        "avgDuration": 140.63011113394018
+      },
+      {
+        "path": "/baby-shower-centerpieces",
+        "sessions": 750,
+        "users": 686,
+        "bounceRate": 0.5533333333333333,
+        "avgDuration": 102.74527909866666
+      }
+    ],
+    "timestamp": "2026-02-06T06:07:53.618Z"
+  },
+  {
+    "property": {
+      "id": "347579229",
+      "name": "We Heart This",
+      "domain": "weheartthis.com"
+    },
+    "metrics": {
+      "pageViews": 20257,
+      "activeUsers": 16870,
+      "sessions": 18608,
+      "newUsers": 16678,
+      "engagementRate": 0.3208834909716251
+    },
+    "topPages": [
+      {
+        "path": "/",
+        "title": "Beauty Haven: We Heart This - Makeup, Hair, Skincare, Nails",
+        "views": 1362,
+        "users": 1246,
+        "avgDuration": 23.484484997647062,
+        "bounceRate": 0.42745098039215684
+      },
+      {
+        "path": "/",
+        "title": "trafficheap.com",
+        "views": 500,
+        "users": 500,
+        "avgDuration": 19.201144624750498,
+        "bounceRate": 0.003992015968063872
+      },
+      {
+        "path": "/color-palette-for-olive-skin/",
+        "title": "Top Color Palettes for Olive Skin + Colors To Avoid",
+        "views": 323,
+        "users": 252,
+        "avgDuration": 188.70947242,
+        "bounceRate": 0.4766666666666667
+      },
+      {
+        "path": "/eyebrow-tattoos/",
+        "title": "11 Things You Need To Know Before Getting Eyebrow Tattoos",
+        "views": 278,
+        "users": 234,
+        "avgDuration": 187.7663417099237,
+        "bounceRate": 0.3435114503816794
+      },
+      {
+        "path": "/hair-color-numbers/",
+        "title": "Hair Color Numbers Explained: How To Read a Hair Color Chart",
+        "views": 226,
+        "users": 156,
+        "avgDuration": 128.41541822857144,
+        "bounceRate": 0.5904761904761905
+      },
+      {
+        "path": "/microblading-aftercare/",
+        "title": "Microblading Aftercare: A Day-By-Day Guide for Microbladed Brows",
+        "views": 224,
+        "users": 154,
+        "avgDuration": 161.96631549746192,
+        "bounceRate": 0.4365482233502538
+      },
+      {
+        "path": "/best-oils-for-gua-sha/",
+        "title": "16 Top Oils for Gua Sha Based on Your Skin Type",
+        "views": 166,
+        "users": 144,
+        "avgDuration": 112.19452154491019,
+        "bounceRate": 0.4251497005988024
+      },
+      {
+        "path": "/what-to-put-on-skin-after-microneedling/",
+        "title": "What To Put on Skin After Microneedling + 7 Top Products To Use",
+        "views": 154,
+        "users": 120,
+        "avgDuration": 191.06421272789115,
+        "bounceRate": 0.4217687074829932
+      },
+      {
+        "path": "/1940s-hairstyles/",
+        "title": "1940s Hairstyles: 25 Timeless, Glamorous Looks",
+        "views": 153,
+        "users": 116,
+        "avgDuration": 114.55423620125788,
+        "bounceRate": 0.4716981132075472
+      },
+      {
+        "path": "/cream-dark-inner-thighs/",
+        "title": "10 Top Creams for Dark Inner Thighs + Why It Happens",
+        "views": 146,
+        "users": 133,
+        "avgDuration": 38.113390825174825,
+        "bounceRate": 0.7272727272727273
+      },
+      {
+        "path": "/1920s-hairstyles/",
+        "title": "Stunning 1920s Hairstyles: From Flapper Bobs to Elegant Updos",
+        "views": 138,
+        "users": 102,
+        "avgDuration": 147.9756282047244,
+        "bounceRate": 0.4015748031496063
+      },
+      {
+        "path": "/1930s-hairstyles/",
+        "title": "1930s Hairstyles: Iconic Styles and How To Achieve Them",
+        "views": 130,
+        "users": 98,
+        "avgDuration": 120.79677268333333,
+        "bounceRate": 0.475
+      },
+      {
+        "path": "/1970s-hairstyles/",
+        "title": "1970s Hairstyles: 32 Looks for Every Hair Type and Occasion",
+        "views": 114,
+        "users": 90,
+        "avgDuration": 114.32465708910892,
+        "bounceRate": 0.46534653465346537
+      },
+      {
+        "path": "/1980s-hairstyles/",
+        "title": "1980s Hairstyles: 34 Iconic Looks and How To Rock Them Today",
+        "views": 114,
+        "users": 97,
+        "avgDuration": 124.48028813207549,
+        "bounceRate": 0.4528301886792453
+      },
+      {
+        "path": "/shampoo-alternatives/",
+        "title": "12 Shampoo Alternatives You Can Use Instead",
+        "views": 112,
+        "users": 106,
+        "avgDuration": 75.2454509557522,
+        "bounceRate": 0.45132743362831856
+      }
+    ],
+    "sources": [
+      {
+        "source": "(direct)",
+        "medium": "(none)",
+        "sessions": 10388,
+        "users": 10148
+      },
+      {
+        "source": "bing",
+        "medium": "organic",
+        "sessions": 2453,
+        "users": 2086
+      },
+      {
+        "source": "duckduckgo",
+        "medium": "organic",
+        "sessions": 1283,
+        "users": 1002
+      },
+      {
+        "source": "yahoo",
+        "medium": "organic",
+        "sessions": 1055,
+        "users": 852
+      },
+      {
+        "source": "chatgpt.com",
+        "medium": "(not set)",
+        "sessions": 752,
+        "users": 729
+      },
+      {
+        "source": "trafficheap.com",
+        "medium": "referral",
+        "sessions": 501,
+        "users": 500
+      },
+      {
+        "source": "ecosia.org",
+        "medium": "organic",
+        "sessions": 421,
+        "users": 334
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "sessions": 242,
+        "users": 186
+      },
+      {
+        "source": "chatgpt.com",
+        "medium": "referral",
+        "sessions": 188,
+        "users": 162
+      },
+      {
+        "source": "m.facebook.com",
+        "medium": "referral",
+        "sessions": 155,
+        "users": 151
+      }
+    ],
+    "landingPages": [
+      {
+        "path": "/",
+        "sessions": 1254,
+        "users": 1228,
+        "bounceRate": 0.44019138755980863,
+        "avgDuration": 48.70418705821372
+      },
+      {
+        "path": "(not set)",
+        "sessions": 406,
+        "users": 304,
+        "bounceRate": 0.9802955665024631,
+        "avgDuration": 8.782139778325122
+      },
+      {
+        "path": "/color-palette-for-olive-skin",
+        "sessions": 284,
+        "users": 251,
+        "bounceRate": 0.4507042253521127,
+        "avgDuration": 199.3577192852113
+      },
+      {
+        "path": "/eyebrow-tattoos",
+        "sessions": 253,
+        "users": 233,
+        "bounceRate": 0.3241106719367589,
+        "avgDuration": 230.78228949011856
+      },
+      {
+        "path": "/hair-color-numbers",
+        "sessions": 197,
+        "users": 154,
+        "bounceRate": 0.5736040609137056,
+        "avgDuration": 136.57380262436547
+      },
+      {
+        "path": "/microblading-aftercare",
+        "sessions": 192,
+        "users": 153,
+        "bounceRate": 0.4270833333333333,
+        "avgDuration": 165.30150947916667
+      },
+      {
+        "path": "/best-oils-for-gua-sha",
+        "sessions": 156,
+        "users": 143,
+        "bounceRate": 0.38461538461538464,
+        "avgDuration": 122.8332038846154
+      },
+      {
+        "path": "/cream-dark-inner-thighs",
+        "sessions": 140,
+        "users": 133,
+        "bounceRate": 0.7285714285714285,
+        "avgDuration": 39.55160107857143
+      },
+      {
+        "path": "/1940s-hairstyles",
+        "sessions": 137,
+        "users": 114,
+        "bounceRate": 0.41605839416058393,
+        "avgDuration": 143.3088735182482
+      },
+      {
+        "path": "/what-to-put-on-skin-after-microneedling",
+        "sessions": 137,
+        "users": 118,
+        "bounceRate": 0.40145985401459855,
+        "avgDuration": 205.13989724817515
+      }
+    ],
+    "timestamp": "2026-02-06T06:07:56.399Z"
+  },
+  {
+    "property": {
+      "id": "352646496",
+      "name": "Moms Make Cents",
+      "domain": "momsmakecents.com"
+    },
+    "metrics": {
+      "pageViews": 3000,
+      "activeUsers": 2430,
+      "sessions": 2657,
+      "newUsers": 2406,
+      "engagementRate": 0.42642077531050054
+    },
+    "topPages": [
+      {
+        "path": "/pinterest-affiliate-links/",
+        "title": "How to Make Money on Pinterest With Affiliate Links",
+        "views": 801,
+        "users": 724,
+        "avgDuration": 90.73057535841836,
+        "bounceRate": 0.6543367346938775
+      },
+      {
+        "path": "/free-books-by-mail/",
+        "title": "Free Books by Mail: 14 Places That Send Free Books",
+        "views": 323,
+        "users": 256,
+        "avgDuration": 202.93063325172412,
+        "bounceRate": 0.3758620689655172
+      },
+      {
+        "path": "/free-stuff-on-your-birthday/",
+        "title": "Free Stuff On Your Birthday: 77 Places For Birthday Freebies",
+        "views": 267,
+        "users": 223,
+        "avgDuration": 174.4364624227642,
+        "bounceRate": 0.4634146341463415
+      },
+      {
+        "path": "/free-land/",
+        "title": "18 Places Giving Out Free Land in 2021 (Great For Homesteading)",
+        "views": 158,
+        "users": 133,
+        "avgDuration": 137.71464313605443,
+        "bounceRate": 0.6462585034013606
+      },
+      {
+        "path": "/budget-templates/",
+        "title": "Free Budget Templates - Moms Make Cents",
+        "views": 156,
+        "users": 146,
+        "avgDuration": 62.6085594768212,
+        "bounceRate": 0.44370860927152317
+      },
+      {
+        "path": "/",
+        "title": "Moms Make Cents: Money Tips For Moms - Moms Make Cents",
+        "views": 134,
+        "users": 93,
+        "avgDuration": 62.51845169,
+        "bounceRate": 0.33
+      },
+      {
+        "path": "/how-to-make-a-budget-printable/",
+        "title": "How To Make A Budget + Free Printable Budget Template",
+        "views": 61,
+        "users": 56,
+        "avgDuration": 104.01811728070176,
+        "bounceRate": 0.38596491228070173
+      },
+      {
+        "path": "/free-clothes/",
+        "title": "Free Clothes: 19 Legit Ways to Get Clothes at No Cost",
+        "views": 57,
+        "users": 44,
+        "avgDuration": 194.52694020833334,
+        "bounceRate": 0.3333333333333333
+      },
+      {
+        "path": "/financial-planning-pyramid/",
+        "title": "The Financial Planning Pyramid & How It Impacts Your Finances",
+        "views": 50,
+        "users": 37,
+        "avgDuration": 173.76585196226418,
+        "bounceRate": 0.6037735849056604
+      },
+      {
+        "path": "/free-stickers/",
+        "title": "Free Stickers: 26 Companies That Send Stickers For Free",
+        "views": 47,
+        "users": 35,
+        "avgDuration": 269.0597518611111,
+        "bounceRate": 0.1388888888888889
+      },
+      {
+        "path": "/make-a-big-impression-with-a-tiny-pinterest-following/",
+        "title": "How to Make a Big Impression With a Tiny Pinterest Following",
+        "views": 41,
+        "users": 38,
+        "avgDuration": 21.57484076190476,
+        "bounceRate": 0.8809523809523809
+      },
+      {
+        "path": "/money-order-near-me/",
+        "title": "13 Places For Money Orders Near Me (& Where To Cash Them)",
+        "views": 41,
+        "users": 39,
+        "avgDuration": 89.47278575,
+        "bounceRate": 0.625
+      },
+      {
+        "path": "/under-the-table-jobs/",
+        "title": "16 Best Under the Table Jobs That Pay Well",
+        "views": 30,
+        "users": 30,
+        "avgDuration": 22.319679133333338,
+        "bounceRate": 0.7666666666666667
+      },
+      {
+        "path": "/free-blog-launch-blueprint/",
+        "title": "Blog Launch Blueprint – Free Blogging Course - Moms Make Cents",
+        "views": 29,
+        "users": 29,
+        "avgDuration": 11.218885,
+        "bounceRate": 0.6896551724137931
+      },
+      {
+        "path": "/how-to-start-a-blog",
+        "title": "11 Steps For How To Start A Blog (And Make Money) In 2024",
+        "views": 29,
+        "users": 27,
+        "avgDuration": 116.26390937931035,
+        "bounceRate": 0.5517241379310345
+      }
+    ],
+    "sources": [
+      {
+        "source": "(direct)",
+        "medium": "(none)",
+        "sessions": 755,
+        "users": 712
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "sessions": 734,
+        "users": 642
+      },
+      {
+        "source": "pinterest.com",
+        "medium": "referral",
+        "sessions": 607,
+        "users": 564
+      },
+      {
+        "source": "m.facebook.com",
+        "medium": "referral",
+        "sessions": 134,
+        "users": 133
+      },
+      {
+        "source": "bing",
+        "medium": "organic",
+        "sessions": 98,
+        "users": 92
+      },
+      {
+        "source": "facebook.com",
+        "medium": "referral",
+        "sessions": 59,
+        "users": 59
+      },
+      {
+        "source": "pinterest",
+        "medium": "social",
+        "sessions": 53,
+        "users": 50
+      },
+      {
+        "source": "Pinterest",
+        "medium": "organic",
+        "sessions": 40,
+        "users": 37
+      },
+      {
+        "source": "in.pinterest.com",
+        "medium": "referral",
+        "sessions": 30,
+        "users": 23
+      },
+      {
+        "source": "yahoo",
+        "medium": "organic",
+        "sessions": 15,
+        "users": 13
+      }
+    ],
+    "landingPages": [
+      {
+        "path": "/pinterest-affiliate-links",
+        "sessions": 764,
+        "users": 730,
+        "bounceRate": 0.643979057591623,
+        "avgDuration": 94.44563644502617
+      },
+      {
+        "path": "/free-books-by-mail",
+        "sessions": 290,
+        "users": 260,
+        "bounceRate": 0.3793103448275862,
+        "avgDuration": 211.6004281896552
+      },
+      {
+        "path": "/free-stuff-on-your-birthday",
+        "sessions": 248,
+        "users": 227,
+        "bounceRate": 0.47580645161290325,
+        "avgDuration": 170.64577423387095
+      },
+      {
+        "path": "/budget-templates",
+        "sessions": 150,
+        "users": 147,
+        "bounceRate": 0.44666666666666666,
+        "avgDuration": 67.76585457333333
+      },
+      {
+        "path": "/free-land",
+        "sessions": 144,
+        "users": 132,
+        "bounceRate": 0.6597222222222222,
+        "avgDuration": 142.10000448611112
+      },
+      {
+        "path": "/",
+        "sessions": 86,
+        "users": 81,
+        "bounceRate": 0.37209302325581395,
+        "avgDuration": 132.3135396627907
+      },
+      {
+        "path": "(not set)",
+        "sessions": 72,
+        "users": 51,
+        "bounceRate": 0.9861111111111112,
+        "avgDuration": 36.38323172222223
+      },
+      {
+        "path": "/how-to-make-a-budget-printable",
+        "sessions": 56,
+        "users": 55,
+        "bounceRate": 0.4107142857142857,
+        "avgDuration": 105.48154871428572
+      },
+      {
+        "path": "/make-a-big-impression-with-a-tiny-pinterest-following",
+        "sessions": 42,
+        "users": 39,
+        "bounceRate": 0.9047619047619048,
+        "avgDuration": 21.563971999999996
+      },
+      {
+        "path": "/money-order-near-me",
+        "sessions": 42,
+        "users": 41,
+        "bounceRate": 0.6428571428571429,
+        "avgDuration": 85.2121769047619
+      }
+    ],
+    "timestamp": "2026-02-06T06:07:57.924Z"
+  },
+  {
+    "property": {
+      "id": "312388993",
+      "name": "NY Melrose Family",
+      "domain": "nymelrosefamily.com"
+    },
+    "metrics": {
+      "pageViews": 82990,
+      "activeUsers": 63084,
+      "sessions": 70092,
+      "newUsers": 62354,
+      "engagementRate": 0.34447583176396734
+    },
+    "topPages": [
+      {
+        "path": "/rainbow-craft-ideas/",
+        "title": "44 Rainbow Craft Ideas for Kids To Spark Creativity! - The Melrose Family",
+        "views": 7148,
+        "users": 6351,
+        "avgDuration": 50.91045933967593,
+        "bounceRate": 0.7420841385461573
+      },
+      {
+        "path": "/sourdough-scoring-designs/",
+        "title": "22 Stunning Sourdough Scoring Designs You’ll Want To Try",
+        "views": 2968,
+        "users": 2336,
+        "avgDuration": 102.21631827210146,
+        "bounceRate": 0.6996376811594203
+      },
+      {
+        "path": "/painted-mug-ideas/",
+        "title": "45 DIY Painted Mug Ideas: Easy Designs for Personalized Cups - The Melrose Family",
+        "views": 2145,
+        "users": 1586,
+        "avgDuration": 102.29184057010366,
+        "bounceRate": 0.6110201854882706
+      },
+      {
+        "path": "/felt-craft-ideas/",
+        "title": "37 Creative Felt Craft Ideas for Fun DIY Art Projects at Home - The Melrose Family",
+        "views": 1856,
+        "users": 1496,
+        "avgDuration": 69.75693684661834,
+        "bounceRate": 0.6660628019323671
+      },
+      {
+        "path": "/painted-rocks/",
+        "title": "52 Painted Rock Ideas: Easy & Creative Designs for All Ages",
+        "views": 1749,
+        "users": 1217,
+        "avgDuration": 152.92858644198895,
+        "bounceRate": 0.5787292817679558
+      },
+      {
+        "path": "/stitch-cake-ideas/",
+        "title": "26 Stitch Cake Ideas: Delicious, Delightful Cakes for Any Occasion! - The Melrose Family",
+        "views": 1636,
+        "users": 1159,
+        "avgDuration": 111.60163968135839,
+        "bounceRate": 0.5917630057803468
+      },
+      {
+        "path": "/",
+        "title": "The Melrose Family: Recipes, Crafts, and Parenting Resources",
+        "views": 1366,
+        "users": 904,
+        "avgDuration": 40.10845927299704,
+        "bounceRate": 0.5123639960435212
+      },
+      {
+        "path": "/50th-birthday-cake-ideas/",
+        "title": "50th Birthday Cake Ideas: 24 Elegant, Fun, and Unique Designs",
+        "views": 1362,
+        "users": 1107,
+        "avgDuration": 92.36493680115511,
+        "bounceRate": 0.5445544554455446
+      },
+      {
+        "path": "/banana-bread-muffins/",
+        "title": "Tasty Banana Bread Muffins - Bakery Style Perfection!",
+        "views": 1355,
+        "users": 598,
+        "avgDuration": 290.3159202371245,
+        "bounceRate": 0.6223175965665236
+      },
+      {
+        "path": "/dinosaur-craft-ideas/",
+        "title": "33 Dinosaur Craft Ideas: Fun Projects for Prehistoric Playtime - The Melrose Family",
+        "views": 1213,
+        "users": 1008,
+        "avgDuration": 105.37835010377358,
+        "bounceRate": 0.5943396226415094
+      },
+      {
+        "path": "/cardboard-box-craft-ideas/",
+        "title": "40 Cardboard Box Craft Ideas: Imaginative Projects for Kids",
+        "views": 1135,
+        "users": 872,
+        "avgDuration": 155.68713097851563,
+        "bounceRate": 0.6630859375
+      },
+      {
+        "path": "/1st-birthday-cake-ideas/",
+        "title": "25 1st Birthday Cake Ideas for Your Little One's Big Day - The Melrose Family",
+        "views": 1039,
+        "users": 865,
+        "avgDuration": 69.58479698012553,
+        "bounceRate": 0.6255230125523012
+      },
+      {
+        "path": "/80th-birthday-cake-designs/",
+        "title": "32 80th Birthday Cake Designs To Make the Day Extra Special - The Melrose Family",
+        "views": 1036,
+        "users": 824,
+        "avgDuration": 88.94980345543478,
+        "bounceRate": 0.5608695652173913
+      },
+      {
+        "path": "/dinosaur-cake-ideas/",
+        "title": "Fun Dinosaur Cake Ideas: 24 Unique Designs for Kids' Parties",
+        "views": 947,
+        "users": 713,
+        "avgDuration": 79.99743537946942,
+        "bounceRate": 0.6482122260668973
+      },
+      {
+        "path": "/toilet-paper-roll-crafts/",
+        "title": "43 Toilet Paper Roll Crafts: Easy and Creative Ideas for Kids - The Melrose Family",
+        "views": 931,
+        "users": 714,
+        "avgDuration": 102.67914426858515,
+        "bounceRate": 0.6366906474820144
+      }
+    ],
+    "sources": [
+      {
+        "source": "pinterest.com",
+        "medium": "referral",
+        "sessions": 20458,
+        "users": 18654
+      },
+      {
+        "source": "(direct)",
+        "medium": "(none)",
+        "sessions": 20306,
+        "users": 19541
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "sessions": 19445,
+        "users": 15634
+      },
+      {
+        "source": "Pinterest",
+        "medium": "organic",
+        "sessions": 2718,
+        "users": 2496
+      },
+      {
+        "source": "bing",
+        "medium": "organic",
+        "sessions": 1831,
+        "users": 1597
+      },
+      {
+        "source": "duckduckgo",
+        "medium": "organic",
+        "sessions": 779,
+        "users": 641
+      },
+      {
+        "source": "yahoo",
+        "medium": "organic",
+        "sessions": 689,
+        "users": 549
+      },
+      {
+        "source": "goodhousekeeping.com",
+        "medium": "referral",
+        "sessions": 544,
+        "users": 479
+      },
+      {
+        "source": "de.pinterest.com",
+        "medium": "referral",
+        "sessions": 484,
+        "users": 409
+      },
+      {
+        "source": "(not set)",
+        "medium": "(not set)",
+        "sessions": 282,
+        "users": 281
+      }
+    ],
+    "landingPages": [
+      {
+        "path": "/rainbow-craft-ideas",
+        "sessions": 6482,
+        "users": 6226,
+        "bounceRate": 0.7474544893551373,
+        "avgDuration": 53.917609881363774
+      },
+      {
+        "path": "/sourdough-scoring-designs",
+        "sessions": 2669,
+        "users": 2308,
+        "bounceRate": 0.6995129261895842,
+        "avgDuration": 105.28816704458598
+      },
+      {
+        "path": "(not set)",
+        "sessions": 1857,
+        "users": 1373,
+        "bounceRate": 0.9671513193322563,
+        "avgDuration": 5.15252107646742
+      },
+      {
+        "path": "/painted-mug-ideas",
+        "sessions": 1762,
+        "users": 1565,
+        "bounceRate": 0.6055618615209989,
+        "avgDuration": 106.98762463280364
+      },
+      {
+        "path": "/felt-craft-ideas",
+        "sessions": 1591,
+        "users": 1459,
+        "bounceRate": 0.671904462602137,
+        "avgDuration": 76.12807274984287
+      },
+      {
+        "path": "/painted-rocks",
+        "sessions": 1381,
+        "users": 1188,
+        "bounceRate": 0.5821868211440985,
+        "avgDuration": 161.35016952570598
+      },
+      {
+        "path": "/stitch-cake-ideas",
+        "sessions": 1332,
+        "users": 1135,
+        "bounceRate": 0.5953453453453453,
+        "avgDuration": 115.61402058933935
+      },
+      {
+        "path": "/50th-birthday-cake-ideas",
+        "sessions": 1134,
+        "users": 1049,
+        "bounceRate": 0.5634920634920635,
+        "avgDuration": 96.8641992654321
+      },
+      {
+        "path": "/dinosaur-craft-ideas",
+        "sessions": 1111,
+        "users": 1000,
+        "bounceRate": 0.585058505850585,
+        "avgDuration": 114.29300680468047
+      },
+      {
+        "path": "/cardboard-box-craft-ideas",
+        "sessions": 981,
+        "users": 869,
+        "bounceRate": 0.6534148827726809,
+        "avgDuration": 163.84512783078495
+      }
+    ],
+    "timestamp": "2026-02-06T06:08:00.220Z"
+  }
+]

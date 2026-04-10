@@ -1,0 +1,15 @@
+{
+  "property": {
+    "id": "135356969",
+    "name": "NY Melrose Family"
+  },
+  "metrics": {
+    "propertyId": "135356969",
+    "error": "The incoming JSON object does not contain a client_email field"
+  },
+  "topPages": {
+    "propertyId": "135356969",
+    "error": "The incoming JSON object does not contain a client_email field"
+  },
+  "timestamp": "2026-02-06T06:06:49.115Z"
+}

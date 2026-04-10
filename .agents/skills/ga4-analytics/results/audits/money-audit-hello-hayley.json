@@ -1,0 +1,15 @@
+{
+  "property": {
+    "id": "361561956",
+    "name": "Hello Hayley"
+  },
+  "metrics": {
+    "propertyId": "361561956",
+    "error": "The incoming JSON object does not contain a client_email field"
+  },
+  "topPages": {
+    "propertyId": "361561956",
+    "error": "The incoming JSON object does not contain a client_email field"
+  },
+  "timestamp": "2026-02-06T06:06:49.114Z"
+}

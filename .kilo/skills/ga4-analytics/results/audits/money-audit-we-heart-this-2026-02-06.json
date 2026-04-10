@@ -1,0 +1,271 @@
+{
+  "property": {
+    "id": "347579229",
+    "name": "We Heart This",
+    "domain": "weheartthis.com"
+  },
+  "metrics": {
+    "pageViews": 20257,
+    "activeUsers": 16870,
+    "sessions": 18608,
+    "newUsers": 16678,
+    "engagementRate": 0.3208834909716251
+  },
+  "topPages": [
+    {
+      "path": "/",
+      "title": "Beauty Haven: We Heart This - Makeup, Hair, Skincare, Nails",
+      "views": 1362,
+      "users": 1246,
+      "avgDuration": 23.484484997647062,
+      "bounceRate": 0.42745098039215684
+    },
+    {
+      "path": "/",
+      "title": "trafficheap.com",
+      "views": 500,
+      "users": 500,
+      "avgDuration": 19.201144624750498,
+      "bounceRate": 0.003992015968063872
+    },
+    {
+      "path": "/color-palette-for-olive-skin/",
+      "title": "Top Color Palettes for Olive Skin + Colors To Avoid",
+      "views": 323,
+      "users": 252,
+      "avgDuration": 188.70947242,
+      "bounceRate": 0.4766666666666667
+    },
+    {
+      "path": "/eyebrow-tattoos/",
+      "title": "11 Things You Need To Know Before Getting Eyebrow Tattoos",
+      "views": 278,
+      "users": 234,
+      "avgDuration": 187.7663417099237,
+      "bounceRate": 0.3435114503816794
+    },
+    {
+      "path": "/hair-color-numbers/",
+      "title": "Hair Color Numbers Explained: How To Read a Hair Color Chart",
+      "views": 226,
+      "users": 156,
+      "avgDuration": 128.41541822857144,
+      "bounceRate": 0.5904761904761905
+    },
+    {
+      "path": "/microblading-aftercare/",
+      "title": "Microblading Aftercare: A Day-By-Day Guide for Microbladed Brows",
+      "views": 224,
+      "users": 154,
+      "avgDuration": 161.96631549746192,
+      "bounceRate": 0.4365482233502538
+    },
+    {
+      "path": "/best-oils-for-gua-sha/",
+      "title": "16 Top Oils for Gua Sha Based on Your Skin Type",
+      "views": 166,
+      "users": 144,
+      "avgDuration": 112.19452154491019,
+      "bounceRate": 0.4251497005988024
+    },
+    {
+      "path": "/what-to-put-on-skin-after-microneedling/",
+      "title": "What To Put on Skin After Microneedling + 7 Top Products To Use",
+      "views": 154,
+      "users": 120,
+      "avgDuration": 191.06421272789115,
+      "bounceRate": 0.4217687074829932
+    },
+    {
+      "path": "/1940s-hairstyles/",
+      "title": "1940s Hairstyles: 25 Timeless, Glamorous Looks",
+      "views": 153,
+      "users": 116,
+      "avgDuration": 114.55423620125788,
+      "bounceRate": 0.4716981132075472
+    },
+    {
+      "path": "/cream-dark-inner-thighs/",
+      "title": "10 Top Creams for Dark Inner Thighs + Why It Happens",
+      "views": 146,
+      "users": 133,
+      "avgDuration": 38.113390825174825,
+      "bounceRate": 0.7272727272727273
+    },
+    {
+      "path": "/1920s-hairstyles/",
+      "title": "Stunning 1920s Hairstyles: From Flapper Bobs to Elegant Updos",
+      "views": 138,
+      "users": 102,
+      "avgDuration": 147.9756282047244,
+      "bounceRate": 0.4015748031496063
+    },
+    {
+      "path": "/1930s-hairstyles/",
+      "title": "1930s Hairstyles: Iconic Styles and How To Achieve Them",
+      "views": 130,
+      "users": 98,
+      "avgDuration": 120.79677268333333,
+      "bounceRate": 0.475
+    },
+    {
+      "path": "/1970s-hairstyles/",
+      "title": "1970s Hairstyles: 32 Looks for Every Hair Type and Occasion",
+      "views": 114,
+      "users": 90,
+      "avgDuration": 114.32465708910892,
+      "bounceRate": 0.46534653465346537
+    },
+    {
+      "path": "/1980s-hairstyles/",
+      "title": "1980s Hairstyles: 34 Iconic Looks and How To Rock Them Today",
+      "views": 114,
+      "users": 97,
+      "avgDuration": 124.48028813207549,
+      "bounceRate": 0.4528301886792453
+    },
+    {
+      "path": "/shampoo-alternatives/",
+      "title": "12 Shampoo Alternatives You Can Use Instead",
+      "views": 112,
+      "users": 106,
+      "avgDuration": 75.2454509557522,
+      "bounceRate": 0.45132743362831856
+    }
+  ],
+  "sources": [
+    {
+      "source": "(direct)",
+      "medium": "(none)",
+      "sessions": 10388,
+      "users": 10148
+    },
+    {
+      "source": "bing",
+      "medium": "organic",
+      "sessions": 2453,
+      "users": 2086
+    },
+    {
+      "source": "duckduckgo",
+      "medium": "organic",
+      "sessions": 1283,
+      "users": 1002
+    },
+    {
+      "source": "yahoo",
+      "medium": "organic",
+      "sessions": 1055,
+      "users": 852
+    },
+    {
+      "source": "chatgpt.com",
+      "medium": "(not set)",
+      "sessions": 752,
+      "users": 729
+    },
+    {
+      "source": "trafficheap.com",
+      "medium": "referral",
+      "sessions": 501,
+      "users": 500
+    },
+    {
+      "source": "ecosia.org",
+      "medium": "organic",
+      "sessions": 421,
+      "users": 334
+    },
+    {
+      "source": "google",
+      "medium": "organic",
+      "sessions": 242,
+      "users": 186
+    },
+    {
+      "source": "chatgpt.com",
+      "medium": "referral",
+      "sessions": 188,
+      "users": 162
+    },
+    {
+      "source": "m.facebook.com",
+      "medium": "referral",
+      "sessions": 155,
+      "users": 151
+    }
+  ],
+  "landingPages": [
+    {
+      "path": "/",
+      "sessions": 1254,
+      "users": 1228,
+      "bounceRate": 0.44019138755980863,
+      "avgDuration": 48.70418705821372
+    },
+    {
+      "path": "(not set)",
+      "sessions": 406,
+      "users": 304,
+      "bounceRate": 0.9802955665024631,
+      "avgDuration": 8.782139778325122
+    },
+    {
+      "path": "/color-palette-for-olive-skin",
+      "sessions": 284,
+      "users": 251,
+      "bounceRate": 0.4507042253521127,
+      "avgDuration": 199.3577192852113
+    },
+    {
+      "path": "/eyebrow-tattoos",
+      "sessions": 253,
+      "users": 233,
+      "bounceRate": 0.3241106719367589,
+      "avgDuration": 230.78228949011856
+    },
+    {
+      "path": "/hair-color-numbers",
+      "sessions": 197,
+      "users": 154,
+      "bounceRate": 0.5736040609137056,
+      "avgDuration": 136.57380262436547
+    },
+    {
+      "path": "/microblading-aftercare",
+      "sessions": 192,
+      "users": 153,
+      "bounceRate": 0.4270833333333333,
+      "avgDuration": 165.30150947916667
+    },
+    {
+      "path": "/best-oils-for-gua-sha",
+      "sessions": 156,
+      "users": 143,
+      "bounceRate": 0.38461538461538464,
+      "avgDuration": 122.8332038846154
+    },
+    {
+      "path": "/cream-dark-inner-thighs",
+      "sessions": 140,
+      "users": 133,
+      "bounceRate": 0.7285714285714285,
+      "avgDuration": 39.55160107857143
+    },
+    {
+      "path": "/1940s-hairstyles",
+      "sessions": 137,
+      "users": 114,
+      "bounceRate": 0.41605839416058393,
+      "avgDuration": 143.3088735182482
+    },
+    {
+      "path": "/what-to-put-on-skin-after-microneedling",
+      "sessions": 137,
+      "users": 118,
+      "bounceRate": 0.40145985401459855,
+      "avgDuration": 205.13989724817515
+    }
+  ],
+  "timestamp": "2026-02-06T06:07:56.399Z"
+}

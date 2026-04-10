@@ -1,0 +1,10 @@
+{
+  "name": "InfluencerAI-DraOlivia",
+  "version": "1.0.0",
+  "description": "Plataforma de IA Influencer para o mercado farmacêutico BR",
+  "skills_dir": ".kilo/skills",
+  "agent_config": {
+    "default_model": "kilo-auto-balanced",
+    "persona": "Dra. Olivia - Farmacêutica Expert"
+  }
+}

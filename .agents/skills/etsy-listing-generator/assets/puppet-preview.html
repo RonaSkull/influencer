@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { overflow: hidden; }
+
+.canvas {
+  position: relative;
+  width: 1400px;
+  height: 2000px;
+  background: #FFFFFF;
+  overflow: hidden;
+}
+
+/* Top section - character sheet */
+.characters-section {
+  position: absolute;
+  top: 30px; left: 30px; right: 30px;
+  height: 1080px;
+  overflow: hidden;
+  border-radius: 16px;
+}
+.characters-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center center;
+}
+
+/* Divider label */
+.section-label {
+  position: absolute;
+  top: 1130px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #4D6840;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 10px 40px;
+  border-radius: 60px;
+  z-index: 10;
+}
+
+/* Background scenes grid */
+.backgrounds-grid {
+  position: absolute;
+  top: 1200px; left: 30px; right: 30px;
+  height: 480px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+.bg-card {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.bg-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Bottom banner */
+.banner {
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  height: 240px;
+  background: linear-gradient(178deg, #4D6840 0%, #425A36 100%);
+  z-index: 10;
+}
+
+.badge {
+  position: absolute;
+  top: 20px;
+  padding: 12px 30px;
+  background: linear-gradient(140deg, #EDCD5E 0%, #D4A843 50%, #C49A3C 100%);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 2px;
+  border-radius: 60px;
+  z-index: 20;
+  box-shadow: 0 4px 16px rgba(196,154,60,0.35), inset 0 1px 0 rgba(255,255,255,0.25);
+  text-transform: uppercase;
+}
+.badge-left { left: 36px; }
+.badge-right { right: 36px; }
+
+.title {
+  position: absolute;
+  bottom: 120px;
+  left: 60px; right: 60px;
+  text-align: center;
+  z-index: 15;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 1.12;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.12);
+}
+
+.subtitle {
+  position: absolute;
+  bottom: 40px;
+  left: 100px; right: 100px;
+  text-align: center;
+  z-index: 15;
+  color: rgba(255,255,255,0.7);
+  font-size: 40px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.shop-brand {
+  position: absolute;
+  bottom: 10px; right: 36px;
+  z-index: 15;
+  color: rgba(255,255,255,0.18);
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+</style>
+</head>
+<body>
+<div class="canvas">
+  <div class="badge badge-left">BADGE_LEFT_TEXT</div>
+  <div class="badge badge-right">INSTANT DOWNLOAD</div>
+
+  <div class="characters-section">
+    <img src="CHARACTERS_IMAGE_URL" alt="Characters" />
+  </div>
+
+  <div class="section-label">+ 4 PLAY BACKGROUNDS</div>
+
+  <div class="backgrounds-grid">
+    <div class="bg-card"><img src="BG1_IMAGE_URL" alt="Scene 1" /></div>
+    <div class="bg-card"><img src="BG2_IMAGE_URL" alt="Scene 2" /></div>
+    <div class="bg-card"><img src="BG3_IMAGE_URL" alt="Scene 3" /></div>
+    <div class="bg-card"><img src="BG4_IMAGE_URL" alt="Scene 4" /></div>
+  </div>
+
+  <div class="banner"></div>
+  <div class="title">TITLE_TEXT</div>
+  <div class="subtitle">SUBTITLE_TEXT</div>
+  <div class="shop-brand">TheSunDaisy</div>
+</div>
+</body>
+</html>

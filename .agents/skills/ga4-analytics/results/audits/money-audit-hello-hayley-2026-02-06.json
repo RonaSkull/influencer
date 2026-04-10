@@ -1,0 +1,271 @@
+{
+  "property": {
+    "id": "361561956",
+    "name": "Hello Hayley",
+    "domain": "hellohayley.com"
+  },
+  "metrics": {
+    "pageViews": 111267,
+    "activeUsers": 75453,
+    "sessions": 91708,
+    "newUsers": 73973,
+    "engagementRate": 0.4315108823657696
+  },
+  "topPages": [
+    {
+      "path": "/",
+      "title": "Hello Hayley, Inspiration for Decluttering and DIY for your Home – Hello Hayley",
+      "views": 1591,
+      "users": 1056,
+      "avgDuration": 56.48359211627908,
+      "bounceRate": 0.5108259823576584
+    },
+    {
+      "path": "/tv-wall-ideas/",
+      "title": "35 TV Wall Ideas for a Chic, Functional Entertainment Hub",
+      "views": 1471,
+      "users": 1145,
+      "avgDuration": 118.65063907957958,
+      "bounceRate": 0.5495495495495496
+    },
+    {
+      "path": "/white-kitchen-ideas/",
+      "title": "55 White Kitchen Ideas That Never Go Out of Style",
+      "views": 1346,
+      "users": 849,
+      "avgDuration": 156.82634136995304,
+      "bounceRate": 0.5136150234741784
+    },
+    {
+      "path": "/moody-bedroom-ideas/",
+      "title": "25 Moody Bedroom Ideas To Create a Dark, Luxe Retreat ",
+      "views": 1317,
+      "users": 958,
+      "avgDuration": 115.079033,
+      "bounceRate": 0.48879310344827587
+    },
+    {
+      "path": "/beige-living-room-ideas/",
+      "title": "40 Beige Living Room Ideas: Chic Decor for a Welcoming Space",
+      "views": 1092,
+      "users": 822,
+      "avgDuration": 91.38170864091857,
+      "bounceRate": 0.5657620041753654
+    },
+    {
+      "path": "/scandinavian-bedroom-ideas/",
+      "title": "40 Scandinavian Bedroom Ideas for a Cozy and Serene Space",
+      "views": 1045,
+      "users": 746,
+      "avgDuration": 130.19546801633987,
+      "bounceRate": 0.5490196078431373
+    },
+    {
+      "path": "/gray-house-black-trim/",
+      "title": "39 Gorgeous Gray Houses With Black Trim",
+      "views": 1025,
+      "users": 698,
+      "avgDuration": 117.31461721485714,
+      "bounceRate": 0.5622857142857143
+    },
+    {
+      "path": "/farmhouse-kitchen-backsplash-ideas/",
+      "title": "50 Farmhouse Kitchen Backsplash Ideas for Rustic Charm",
+      "views": 1005,
+      "users": 673,
+      "avgDuration": 172.46303306468306,
+      "bounceRate": 0.4333764553686934
+    },
+    {
+      "path": "/baby-shower-centerpieces/",
+      "title": "36 Baby Shower Centerpieces: Beautiful, Adorable Ideas",
+      "views": 957,
+      "users": 702,
+      "avgDuration": 99.74479601774397,
+      "bounceRate": 0.5564005069708492
+    },
+    {
+      "path": "/kitchen-pantry-ideas/",
+      "title": "38 Kitchen Pantry Ideas: Maximizing Storage and Style",
+      "views": 939,
+      "users": 681,
+      "avgDuration": 145.92663021411482,
+      "bounceRate": 0.49401913875598086
+    },
+    {
+      "path": "/retaining-wall-ideas/",
+      "title": "37 Retaining Wall Ideas for a Better Garden Landscape",
+      "views": 935,
+      "users": 671,
+      "avgDuration": 127.36310342597086,
+      "bounceRate": 0.5109223300970874
+    },
+    {
+      "path": "/fireplaces-with-windows-on-each-side/",
+      "title": "40 Fireplaces With Windows on Each Side for Natural Light and Views",
+      "views": 859,
+      "users": 590,
+      "avgDuration": 146.81890716234653,
+      "bounceRate": 0.5266030013642565
+    },
+    {
+      "path": "/corner-fireplace-ideas/",
+      "title": "40 Corner Fireplace Ideas To Enhance Your Home's Cozy Corners",
+      "views": 851,
+      "users": 557,
+      "avgDuration": 177.74674926775955,
+      "bounceRate": 0.523224043715847
+    },
+    {
+      "path": "/fireplace-with-built-ins-on-each-side/",
+      "title": "30 Ways To Decorate Your Fireplace With Built-Ins on Each Side",
+      "views": 832,
+      "users": 580,
+      "avgDuration": 128.84144951420456,
+      "bounceRate": 0.5056818181818182
+    },
+    {
+      "path": "/zen-garden-ideas/",
+      "title": "39 Zen Garden Ideas: Create a Serene Outdoor Space",
+      "views": 832,
+      "users": 520,
+      "avgDuration": 130.04274843393603,
+      "bounceRate": 0.5994436717663422
+    }
+  ],
+  "sources": [
+    {
+      "source": "google",
+      "medium": "organic",
+      "sessions": 58645,
+      "users": 45749
+    },
+    {
+      "source": "(direct)",
+      "medium": "(none)",
+      "sessions": 21919,
+      "users": 20233
+    },
+    {
+      "source": "pinterest.com",
+      "medium": "referral",
+      "sessions": 4531,
+      "users": 3984
+    },
+    {
+      "source": "bing",
+      "medium": "organic",
+      "sessions": 1731,
+      "users": 1530
+    },
+    {
+      "source": "gemini.google.com",
+      "medium": "referral",
+      "sessions": 737,
+      "users": 627
+    },
+    {
+      "source": "duckduckgo",
+      "medium": "organic",
+      "sessions": 704,
+      "users": 571
+    },
+    {
+      "source": "chatgpt.com",
+      "medium": "(not set)",
+      "sessions": 582,
+      "users": 563
+    },
+    {
+      "source": "yahoo",
+      "medium": "organic",
+      "sessions": 561,
+      "users": 478
+    },
+    {
+      "source": "Pinterest",
+      "medium": "organic",
+      "sessions": 450,
+      "users": 409
+    },
+    {
+      "source": "chatgpt.com",
+      "medium": "referral",
+      "sessions": 322,
+      "users": 253
+    }
+  ],
+  "landingPages": [
+    {
+      "path": "(not set)",
+      "sessions": 3939,
+      "users": 2436,
+      "bounceRate": 0.9931454683929931,
+      "avgDuration": 2.6317059050520433
+    },
+    {
+      "path": "/tv-wall-ideas",
+      "sessions": 1242,
+      "users": 1115,
+      "bounceRate": 0.5410628019323671,
+      "avgDuration": 125.6344921384863
+    },
+    {
+      "path": "/",
+      "sessions": 1174,
+      "users": 945,
+      "bounceRate": 0.596252129471891,
+      "avgDuration": 116.22616140715502
+    },
+    {
+      "path": "/moody-bedroom-ideas",
+      "sessions": 1054,
+      "users": 900,
+      "bounceRate": 0.5028462998102466,
+      "avgDuration": 128.37415175237192
+    },
+    {
+      "path": "/white-kitchen-ideas",
+      "sessions": 987,
+      "users": 815,
+      "bounceRate": 0.5146909827760892,
+      "avgDuration": 163.9186390597771
+    },
+    {
+      "path": "/beige-living-room-ideas",
+      "sessions": 905,
+      "users": 797,
+      "bounceRate": 0.569060773480663,
+      "avgDuration": 94.24624474254142
+    },
+    {
+      "path": "/gray-house-black-trim",
+      "sessions": 824,
+      "users": 687,
+      "bounceRate": 0.5485436893203883,
+      "avgDuration": 122.89180686650485
+    },
+    {
+      "path": "/scandinavian-bedroom-ideas",
+      "sessions": 822,
+      "users": 704,
+      "bounceRate": 0.5583941605839416,
+      "avgDuration": 132.4191073406326
+    },
+    {
+      "path": "/retaining-wall-ideas",
+      "sessions": 769,
+      "users": 661,
+      "bounceRate": 0.4889466840052016,
+      "avgDuration": 140.63011113394018
+    },
+    {
+      "path": "/baby-shower-centerpieces",
+      "sessions": 750,
+      "users": 686,
+      "bounceRate": 0.5533333333333333,
+      "avgDuration": 102.74527909866666
+    }
+  ],
+  "timestamp": "2026-02-06T06:07:53.618Z"
+}

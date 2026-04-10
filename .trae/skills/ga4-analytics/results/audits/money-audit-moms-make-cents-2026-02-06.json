@@ -1,0 +1,271 @@
+{
+  "property": {
+    "id": "352646496",
+    "name": "Moms Make Cents",
+    "domain": "momsmakecents.com"
+  },
+  "metrics": {
+    "pageViews": 3000,
+    "activeUsers": 2430,
+    "sessions": 2657,
+    "newUsers": 2406,
+    "engagementRate": 0.42642077531050054
+  },
+  "topPages": [
+    {
+      "path": "/pinterest-affiliate-links/",
+      "title": "How to Make Money on Pinterest With Affiliate Links",
+      "views": 801,
+      "users": 724,
+      "avgDuration": 90.73057535841836,
+      "bounceRate": 0.6543367346938775
+    },
+    {
+      "path": "/free-books-by-mail/",
+      "title": "Free Books by Mail: 14 Places That Send Free Books",
+      "views": 323,
+      "users": 256,
+      "avgDuration": 202.93063325172412,
+      "bounceRate": 0.3758620689655172
+    },
+    {
+      "path": "/free-stuff-on-your-birthday/",
+      "title": "Free Stuff On Your Birthday: 77 Places For Birthday Freebies",
+      "views": 267,
+      "users": 223,
+      "avgDuration": 174.4364624227642,
+      "bounceRate": 0.4634146341463415
+    },
+    {
+      "path": "/free-land/",
+      "title": "18 Places Giving Out Free Land in 2021 (Great For Homesteading)",
+      "views": 158,
+      "users": 133,
+      "avgDuration": 137.71464313605443,
+      "bounceRate": 0.6462585034013606
+    },
+    {
+      "path": "/budget-templates/",
+      "title": "Free Budget Templates - Moms Make Cents",
+      "views": 156,
+      "users": 146,
+      "avgDuration": 62.6085594768212,
+      "bounceRate": 0.44370860927152317
+    },
+    {
+      "path": "/",
+      "title": "Moms Make Cents: Money Tips For Moms - Moms Make Cents",
+      "views": 134,
+      "users": 93,
+      "avgDuration": 62.51845169,
+      "bounceRate": 0.33
+    },
+    {
+      "path": "/how-to-make-a-budget-printable/",
+      "title": "How To Make A Budget + Free Printable Budget Template",
+      "views": 61,
+      "users": 56,
+      "avgDuration": 104.01811728070176,
+      "bounceRate": 0.38596491228070173
+    },
+    {
+      "path": "/free-clothes/",
+      "title": "Free Clothes: 19 Legit Ways to Get Clothes at No Cost",
+      "views": 57,
+      "users": 44,
+      "avgDuration": 194.52694020833334,
+      "bounceRate": 0.3333333333333333
+    },
+    {
+      "path": "/financial-planning-pyramid/",
+      "title": "The Financial Planning Pyramid & How It Impacts Your Finances",
+      "views": 50,
+      "users": 37,
+      "avgDuration": 173.76585196226418,
+      "bounceRate": 0.6037735849056604
+    },
+    {
+      "path": "/free-stickers/",
+      "title": "Free Stickers: 26 Companies That Send Stickers For Free",
+      "views": 47,
+      "users": 35,
+      "avgDuration": 269.0597518611111,
+      "bounceRate": 0.1388888888888889
+    },
+    {
+      "path": "/make-a-big-impression-with-a-tiny-pinterest-following/",
+      "title": "How to Make a Big Impression With a Tiny Pinterest Following",
+      "views": 41,
+      "users": 38,
+      "avgDuration": 21.57484076190476,
+      "bounceRate": 0.8809523809523809
+    },
+    {
+      "path": "/money-order-near-me/",
+      "title": "13 Places For Money Orders Near Me (& Where To Cash Them)",
+      "views": 41,
+      "users": 39,
+      "avgDuration": 89.47278575,
+      "bounceRate": 0.625
+    },
+    {
+      "path": "/under-the-table-jobs/",
+      "title": "16 Best Under the Table Jobs That Pay Well",
+      "views": 30,
+      "users": 30,
+      "avgDuration": 22.319679133333338,
+      "bounceRate": 0.7666666666666667
+    },
+    {
+      "path": "/free-blog-launch-blueprint/",
+      "title": "Blog Launch Blueprint – Free Blogging Course - Moms Make Cents",
+      "views": 29,
+      "users": 29,
+      "avgDuration": 11.218885,
+      "bounceRate": 0.6896551724137931
+    },
+    {
+      "path": "/how-to-start-a-blog",
+      "title": "11 Steps For How To Start A Blog (And Make Money) In 2024",
+      "views": 29,
+      "users": 27,
+      "avgDuration": 116.26390937931035,
+      "bounceRate": 0.5517241379310345
+    }
+  ],
+  "sources": [
+    {
+      "source": "(direct)",
+      "medium": "(none)",
+      "sessions": 755,
+      "users": 712
+    },
+    {
+      "source": "google",
+      "medium": "organic",
+      "sessions": 734,
+      "users": 642
+    },
+    {
+      "source": "pinterest.com",
+      "medium": "referral",
+      "sessions": 607,
+      "users": 564
+    },
+    {
+      "source": "m.facebook.com",
+      "medium": "referral",
+      "sessions": 134,
+      "users": 133
+    },
+    {
+      "source": "bing",
+      "medium": "organic",
+      "sessions": 98,
+      "users": 92
+    },
+    {
+      "source": "facebook.com",
+      "medium": "referral",
+      "sessions": 59,
+      "users": 59
+    },
+    {
+      "source": "pinterest",
+      "medium": "social",
+      "sessions": 53,
+      "users": 50
+    },
+    {
+      "source": "Pinterest",
+      "medium": "organic",
+      "sessions": 40,
+      "users": 37
+    },
+    {
+      "source": "in.pinterest.com",
+      "medium": "referral",
+      "sessions": 30,
+      "users": 23
+    },
+    {
+      "source": "yahoo",
+      "medium": "organic",
+      "sessions": 15,
+      "users": 13
+    }
+  ],
+  "landingPages": [
+    {
+      "path": "/pinterest-affiliate-links",
+      "sessions": 764,
+      "users": 730,
+      "bounceRate": 0.643979057591623,
+      "avgDuration": 94.44563644502617
+    },
+    {
+      "path": "/free-books-by-mail",
+      "sessions": 290,
+      "users": 260,
+      "bounceRate": 0.3793103448275862,
+      "avgDuration": 211.6004281896552
+    },
+    {
+      "path": "/free-stuff-on-your-birthday",
+      "sessions": 248,
+      "users": 227,
+      "bounceRate": 0.47580645161290325,
+      "avgDuration": 170.64577423387095
+    },
+    {
+      "path": "/budget-templates",
+      "sessions": 150,
+      "users": 147,
+      "bounceRate": 0.44666666666666666,
+      "avgDuration": 67.76585457333333
+    },
+    {
+      "path": "/free-land",
+      "sessions": 144,
+      "users": 132,
+      "bounceRate": 0.6597222222222222,
+      "avgDuration": 142.10000448611112
+    },
+    {
+      "path": "/",
+      "sessions": 86,
+      "users": 81,
+      "bounceRate": 0.37209302325581395,
+      "avgDuration": 132.3135396627907
+    },
+    {
+      "path": "(not set)",
+      "sessions": 72,
+      "users": 51,
+      "bounceRate": 0.9861111111111112,
+      "avgDuration": 36.38323172222223
+    },
+    {
+      "path": "/how-to-make-a-budget-printable",
+      "sessions": 56,
+      "users": 55,
+      "bounceRate": 0.4107142857142857,
+      "avgDuration": 105.48154871428572
+    },
+    {
+      "path": "/make-a-big-impression-with-a-tiny-pinterest-following",
+      "sessions": 42,
+      "users": 39,
+      "bounceRate": 0.9047619047619048,
+      "avgDuration": 21.563971999999996
+    },
+    {
+      "path": "/money-order-near-me",
+      "sessions": 42,
+      "users": 41,
+      "bounceRate": 0.6428571428571429,
+      "avgDuration": 85.2121769047619
+    }
+  ],
+  "timestamp": "2026-02-06T06:07:57.924Z"
+}
