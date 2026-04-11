@@ -43,8 +43,8 @@ export class VideoOrchestrator {
 
     console.log("🎬 Enviando para renderização na Tavus...");
     
-    // ✅ CORREÇÃO: URL correta da API
-    const response = await fetch("https://api.tavus.io/v2/videos", {
+    // ✅ CORREÇÃO ELITE: URL correta da API usando Proxy (bypass)
+    const response = await fetch("/tavus-api/v2/videos", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -58,8 +58,15 @@ export class VideoOrchestrator {
     });
 
     if (!response.ok) {
-        const error = await response.json();
-        throw new Error(error.message || "Erro ao gerar vídeo na Tavus");
+        let errorData = "Erro Genérico HTTP " + response.status;
+        try {
+            const errorJson = await response.json();
+            errorData = errorJson.message || JSON.stringify(errorJson);
+        } catch {
+            const errorText = await response.text();
+            errorData = errorText || response.statusText;
+        }
+        throw new Error(`Tavus API Error: ${errorData}`);
     }
 
     return await response.json(); // Retorna { video_id, status }

@@ -8,6 +8,7 @@ import { ResultDashboard } from './components/ResultDashboard'
 import { StreamLog } from './components/StreamLog'
 import LiveInfluencer from './components/LiveInfluencer'
 import { CVIProvider } from './components/cvi/components/cvi-provider'
+import ErrorBoundary from './components/ErrorBoundary'
 
 // ─── SSE line parser ──────────────────────────────────────────────────────────
 
@@ -436,11 +437,13 @@ export default function App() {
             )}
 
             {status === 'done' && result && (
-              <ResultDashboard
-                result={result}
-                streamLines={streamLines}
-                onReset={handleReset}
-              />
+              <ErrorBoundary>
+                <ResultDashboard
+                  result={result}
+                  streamLines={streamLines}
+                  onReset={handleReset}
+                />
+              </ErrorBoundary>
             )}
           </>
         )}

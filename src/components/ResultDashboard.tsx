@@ -3,6 +3,7 @@ import type { WorkflowResponse, StreamLine } from '../types'
 import { StreamLog } from './StreamLog'
 import { VideoOrchestrator } from '../services/videoOrchestrator'
 import { TavusStatusTracker } from './TavusStatusTracker'
+import ErrorBoundary from './ErrorBoundary'
 
 interface Props {
   result: WorkflowResponse
@@ -29,6 +30,7 @@ export function ResultDashboard({ result, streamLines, onReset }: Props) {
   const [renderingVideoId, setRenderingVideoId] = useState<string | null>(null);
   const [downloadUrl, setDownloadUrl] = useState<string | null>(null);
   const [isProcessing, setIsProcessing] = useState(false);
+  const [renderError, setRenderError] = useState<Error | null>(null);
 
   const theme = data?.product || 'Dra Olivia';
 
@@ -46,13 +48,17 @@ export function ResultDashboard({ result, streamLines, onReset }: Props) {
       const res = await VideoOrchestrator.renderVideo(script);
       setRenderingVideoId(res.video_id);
     } catch (err: any) {
-      alert(err.message);
+      setRenderError(err);
     } finally {
       setIsProcessing(false);
     }
   };
 
   const [mood, setMood] = useState('padrao');
+
+  if (renderError) {
+    throw renderError;
+  }
 
   return (
     <div className="result-dashboard">
