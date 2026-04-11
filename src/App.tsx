@@ -131,29 +131,36 @@ export default function App() {
     }, 8000)
 
     try {
-      // Usando mock para avanço imediato sem depender do webhook
-      await new Promise((resolve) => setTimeout(resolve, 3000));
-      
+      const resp = await fetch(CONFIG.WEBHOOK_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+        signal: _signal,
+      })
+
       clearInterval(ticker)
       
-      const data: WorkflowResponse = {
-        success: true,
-        executionId: 12345,
-        data: {
-          success: true,
-          product: payload.productName,
-          influencerName: "Dra. Olivia",
-          videosGenerated: payload.videoCount,
-          quickSummary: {
-            topScript: "Você sabia que quase 90% dos brasileiros têm deficiência de vitamina D e nem sabe?"
-          }
-        }
+      if (!resp.ok) {
+        throw new Error(`HTTP ${resp.status}: ${resp.statusText}`)
       }
-      
-      addLine('', 'default')
-      addLine('✔ Todos os steps da Blueprint concluídos!', 'done')
-      return data
-    } catch (err) {
+
+      const raw = await resp.text()
+      try {
+        const data = JSON.parse(raw) as WorkflowResponse
+        if (!data.success) {
+          throw new Error(data.message || 'Erro na resposta do backend')
+        }
+        
+        addLine('', 'default')
+        addLine('✔ Todos os steps da Blueprint concluídos!', 'done')
+        return data
+      } catch (err) {
+        // Fallback: the server didn't return standard JSON format
+        // Log it as error but return a standard shape since we assume it finished if HTTP 200
+        console.error("Failed to parse the server response as WorkflowResponse:", raw)
+        throw new Error("Erro desconhecido do servidor, não foi possível ler os dados.")
+      }
+    } catch (err: any) {
       clearInterval(ticker)
       throw err
     }

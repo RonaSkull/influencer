@@ -59,12 +59,12 @@ export class VideoOrchestrator {
 
     if (!response.ok) {
         let errorData = "Erro Genérico HTTP " + response.status;
+        const textResponse = await response.text();
         try {
-            const errorJson = await response.json();
+            const errorJson = JSON.parse(textResponse);
             errorData = errorJson.message || JSON.stringify(errorJson);
         } catch {
-            const errorText = await response.text();
-            errorData = errorText || response.statusText;
+            errorData = textResponse || response.statusText;
         }
         throw new Error(`Tavus API Error: ${errorData}`);
     }

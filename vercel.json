@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/bubblelab/(.*)",
+      "destination": "https://api.nodex.bubblelab.ai/$1"
+    },
+    {
+      "source": "/tavus-api/(.*)",
+      "destination": "https://api.tavus.io/$1"
+    }
+  ]
+}
