@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "skills": {
+    "openclaw-power-ops": {
+      "version": "1.0.0",
+      "installedAt": 1775847340040
+    },
+    "openclaw-master-skills": {
+      "version": "0.7.0",
+      "installedAt": 1775847345734
+    },
+    "openclaw-ops-guardrails": {
+      "version": "0.1.1",
+      "installedAt": 1775847350800
+    },
+    "openclaw-mcp-debugger": {
+      "version": "1.0.0",
+      "installedAt": 1775847353538
+    }
+  }
+}
