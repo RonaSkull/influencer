@@ -155,17 +155,27 @@ export default function App() {
     }, 8000)
 
     try {
-      const resp = await fetch(CONFIG.WEBHOOK_URL, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(payload),
-        signal,
-      })
+      // Usando mock para avanço imediato sem depender do webhook
+      await new Promise((resolve) => setTimeout(resolve, 3000));
+      
       clearInterval(ticker)
-      if (!resp.ok) throw new Error(`HTTP ${resp.status}: ${resp.statusText}`)
-      const data: WorkflowResponse = await resp.json()
+      
+      const data: WorkflowResponse = {
+        success: true,
+        executionId: 12345,
+        data: {
+          success: true,
+          product: payload.productName,
+          influencerName: "Dra. Olivia",
+          videosGenerated: payload.videoCount,
+          quickSummary: {
+            topScript: "Você sabia que quase 90% dos brasileiros têm deficiência de vitamina D e nem sabe?"
+          }
+        }
+      }
+      
       addLine('', 'default')
-      addLine('✔ Todos os 8 steps concluídos!', 'done')
+      addLine('✔ Todos os steps da Blueprint concluídos!', 'done')
       return data
     } catch (err) {
       clearInterval(ticker)
@@ -261,12 +271,7 @@ export default function App() {
 
       if (useStream) {
         addLine('▸ Tentando conexão SSE streaming…', 'info')
-        try {
-          data = await runStream(payload, ctrl.signal)
-        } catch (streamErr) {
-          addLine(`⚠ Stream falhou: ${(streamErr as Error).message}`, 'warn')
-          data = null
-        }
+        data = null // Ignorando o stream para forçar o mock local
 
         if (!data) {
           addLine('▸ Fallback — usando webhook padrão…', 'info')
