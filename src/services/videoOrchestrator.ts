@@ -1,6 +1,4 @@
 
-import { TavusClient } from './tavusClient'; // Vamos criar este abaixo
-
 export interface ViralScript {
   hook: string;
   body: string;
@@ -35,11 +33,18 @@ export class VideoOrchestrator {
     }
 
     const apiKey = import.meta.env.VITE_TAVUS_API_KEY;
+
+    // ✅ CORREÇÃO: Verifica se API key existe
+    if (!apiKey) {
+      throw new Error("API Key da Tavus não configurada. Configure VITE_TAVUS_API_KEY no .env");
+    }
+
     const replicaId = import.meta.env.VITE_REPLICA_ID || "rd3ba0f30551";
 
     console.log("🎬 Enviando para renderização na Tavus...");
     
-    const response = await fetch("https://tavusapi.com/v2/videos", {
+    // ✅ CORREÇÃO: URL correta da API
+    const response = await fetch("https://api.tavus.io/v2/videos", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
