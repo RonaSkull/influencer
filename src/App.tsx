@@ -10,32 +10,7 @@ import LiveInfluencer from './components/LiveInfluencer'
 import { CVIProvider } from './components/cvi/components/cvi-provider'
 import ErrorBoundary from './components/ErrorBoundary'
 
-// ─── SSE line parser ──────────────────────────────────────────────────────────
-
-function parseSSELine(raw: string): StreamLine | null {
-  const text = raw.startsWith('data:') ? raw.slice(5).trim() : raw.trim()
-  if (!text) return null
-
-  if (raw.startsWith('event:')) {
-    const evName = raw.slice(6).trim()
-    if (evName === 'error') return { text: `⚠ Server event: ${evName}`, type: 'warn' }
-    return { text: `◎ Event: ${evName}`, type: 'system' }
-  }
-
-  try {
-    const j = JSON.parse(text) as Record<string, unknown>
-    if (j.error) return { text: `✖ ${j.error}`, type: 'warn' }
-    if (j.type === 'step' || j.step != null)
-      return { text: `▸ ${j.name ?? j.message ?? text}`, type: 'info' }
-    if (j.type === 'log' || j.message)
-      return { text: `  ${j.message ?? text}`, type: 'default' }
-    if (j.success === true && (j.executionId != null || j.data != null))
-      return { text: `✔ Workflow concluído — Execução #${j.executionId ?? ''}`, type: 'done' }
-    return { text: `  ${text}`, type: 'default' }
-  } catch {
-    return { text: text, type: 'default' }
-  }
-}
+// ─── SSE disabled for now ───────────────────────────────────────────────────────
 
 // ─── Build payload ─────────────────────────────────────────────────────────────
 
@@ -77,7 +52,7 @@ export default function App() {
   const [result, setResult]       = useState<WorkflowResponse | null>(null)
   const [errorMsg, setErrorMsg]   = useState('')
   const [useStream, setUseStream] = useState(false)
-  const [elapsedSec, setElapsedSec] = useState(0)
+  const [, setElapsedSec] = useState(0)
   const [mode, setMode]           = useState<'blueprint' | 'live'>('blueprint')
 
   const streamLogRef = useRef<HTMLDivElement | null>(null)
@@ -123,7 +98,7 @@ export default function App() {
 
   // ─── Standard (non-streaming) POST ───────────────────────────────────────
 
-  const runStandard = async (payload: WorkflowPayload, signal: AbortSignal) => {
+  const runStandard = async (payload: WorkflowPayload, _signal: AbortSignal) => {
     const steps = CONFIG.STEP_LABELS
     let idx = 0
 
@@ -186,63 +161,7 @@ export default function App() {
 
   // ─── Streaming POST ───────────────────────────────────────────────────────
 
-  const runStream = async (payload: WorkflowPayload, signal: AbortSignal): Promise<WorkflowResponse | null> => {
-    const resp = await fetch(CONFIG.STREAM_URL, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(payload),
-      signal,
-    })
-
-    if (!resp.ok) throw new Error(`HTTP ${resp.status}: ${resp.statusText}`)
-    if (!resp.body)  throw new Error('No response body — stream not supported')
-
-    const reader = resp.body.getReader()
-    const decoder = new TextDecoder()
-    let buffer = ''
-    let captured: WorkflowResponse | null = null
-    let hadServerError = false
-
-    while (true) {
-      const { done, value } = await reader.read()
-      if (done) break
-
-      buffer += decoder.decode(value, { stream: true })
-      const parts = buffer.split('\n')
-      buffer = parts.pop() ?? ''
-
-      for (const raw of parts) {
-        if (raw.startsWith('event:')) {
-          const evName = raw.slice(6).trim()
-          if (evName === 'error') {
-            hadServerError = true
-            addLine(`⚠ Server stream event: error`, 'warn')
-          }
-          continue
-        }
-
-        const line = parseSSELine(raw)
-        if (line) addLine(line.text, line.type)
-
-        try {
-          const text = raw.startsWith('data:') ? raw.slice(5).trim() : raw.trim()
-          const j = JSON.parse(text) as WorkflowResponse
-          if (j.success !== undefined || j.executionId != null || j.data != null) {
-            captured = j
-          }
-        } catch { /* not JSON */ }
-      }
-    }
-
-    if (hadServerError) {
-      addLine('  Stream encerrado com erro — usando webhook padrão…', 'warn')
-      return null
-    }
-
-    addLine('', 'default')
-    addLine('✔ Stream completo!', 'done')
-    return captured
-  }
+  // ─── Streaming POST disabled for now
 
   // ─── Main submit handler ──────────────────────────────────────────────────
 

@@ -48,7 +48,7 @@ export const TavusStatusTracker: React.FC<Props> = ({ videoId, apiKey, onReady }
       case 'queued': return { icon: '⏳', text: 'Na fila do servidor...', color: '#FBBF24' };
       case 'generating': return { icon: '⚙️', text: 'Renderizando Dra. Olivia...', color: '#60A5FA' };
       case 'ready': return { icon: '✅', text: 'Vídeo Finalizado!', color: '#34D399' };
-      case 'error': return { icon: '❌', text: 'Erro no processamento', color: '#F87171' };
+      case 'error': return { icon: '❌', text: error ? `Erro: ${error}` : 'Erro no processamento', color: '#F87171' };
       default: return { icon: '🌀', text: 'Sincronizando...', color: '#9CA3AF' };
     }
   };
@@ -71,7 +71,7 @@ export const TavusStatusTracker: React.FC<Props> = ({ videoId, apiKey, onReady }
         <div style={{ fontSize: '14px', fontWeight: '600', color: display.color }}>{display.text}</div>
         <div style={{ fontSize: '11px', color: 'var(--text-muted)' }}>ID: {videoId}</div>
       </div>
-      {status === 'generating' && <div className="loading-spinner" style={{ width: 16, height: 16, borderWeight: 2, margin: 0 }} />}
+      {status === 'generating' && <div className="loading-spinner" style={{ width: 16, height: 16, borderWidth: 2, margin: 0 }} />}
     </div>
   );
 };

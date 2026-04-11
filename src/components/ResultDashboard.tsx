@@ -1,9 +1,8 @@
-import React, { useState, useRef } from 'react'
+import { useState, useRef } from 'react'
 import type { WorkflowResponse, StreamLine } from '../types'
 import { StreamLog } from './StreamLog'
 import { VideoOrchestrator } from '../services/videoOrchestrator'
 import { TavusStatusTracker } from './TavusStatusTracker'
-import ErrorBoundary from './ErrorBoundary'
 
 interface Props {
   result: WorkflowResponse
